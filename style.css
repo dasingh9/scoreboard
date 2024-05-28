@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black ;
+    height: 100vh;
+}
+
+.team-a {
+    background-color: red;
+    width: 30vw;
+}
+
+.team-b {
+    background-color: aqua;
+    width: 30vw;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.logo-width {
+    width: 100%;
+}
+
+.score {
+    font-size: 20vw;
+}
+
+.team-name {
+    display: none;
+}
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (max-width: 480px) {
+    .score {
+        font-size: 30vw;
+    }
+
+    .team-logo-img {
+        display: none;
+    }
+
+    .team-name {
+        display: block;
+    }
+
+}
+
+/* Tablets (portrait) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .score {
+        font-size: 30vw;
+    }
+
+    .team-logo-img {
+        display: none;
+    }
+
+    .team-name {
+        display: block;
+    }
+}
+
+/* Tablets (landscape) and small desktops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .score {
+        font-size: 30vw;
+    }
+}
+
+/* Desktops and laptops */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .score {
+        font-size: 25vw;
+    }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+    .score {
+        font-size: 20vw;
+    }
+}
+
+/* X-Large screens */
+@media only screen and (min-width: 1601px) {
+    .score {
+        font-size: 10vw;
+    }
+}
